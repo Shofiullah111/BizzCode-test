@@ -38,7 +38,7 @@
         ======      Header        =======
         ============================= -->
         <header>
-            <section class="header-area">
+            <div class="header-area">
                 <nav class="navbar navbar-default">
                     <div class="container">
                         <!-- Brand and toggle get grouped for better mobile display -->
@@ -57,14 +57,14 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="index.html">Home</a></li>
+                                <li class="active"><a href="index.html">Home</a></li>
                                 <li><a href="about.html">About</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </div>
                     </div>
                 </nav>
-            </section>
+            </div>
         </header>
         
         <!-- ============================
@@ -74,7 +74,7 @@
             <div class="flexslider">
                 <ul class="slides">
                     <li>
-                        <img src="images/slider-bg-1.jpg" />
+                        <img src="images/slider-bg-1.jpg" alt="Slider Image" />
                         <div class="slider-text-main">
                             <div class="slider-text">
                                 <h2>Bizzcode # Your Business in Your Hand!</h2>
@@ -85,7 +85,7 @@
                         </div>
                     </li> <!-- Item 1 -->
                     <li>
-                        <img src="images/slider-bg-2.jpg" />
+                        <img src="images/slider-bg-2.jpg" alt="Slider Image" />
                         <div class="slider-text-main">
                             <div class="slider-text">
                                 <h2>Bizzcode # Your Business in Your Hand!</h2>
@@ -96,7 +96,7 @@
                         </div>
                     </li> <!-- Item 2 -->
                     <li>
-                        <img src="images/slider-bg-3.jpg" />
+                        <img src="images/slider-bg-3.jpg" alt="Slider Image" />
                         <div class="slider-text-main">
                             <div class="slider-text">
                                 <h2>Bizzcode # Your Business in Your Hand!</h2>
@@ -107,7 +107,7 @@
                         </div>
                     </li> <!-- Item 3 -->
                     <li>
-                        <img src="images/slider-bg-4.jpg" />
+                        <img src="images/slider-bg-4.jpg" alt="Slider Image" />
                         <div class="slider-text-main">
                             <div class="slider-text">
                                 <h2>Bizzcode # Your Business in Your Hand!</h2>
@@ -118,7 +118,7 @@
                         </div>
                     </li> <!-- Item 4 -->
                     <li>
-                        <img src="images/slider-bg-5.jpg" />
+                        <img src="images/slider-bg-5.jpg" alt="Slider Image" />
                         <div class="slider-text-main">
                             <div class="slider-text">
                                 <h2>Bizzcode # Your Business in Your Hand!</h2>
@@ -268,7 +268,7 @@
         <!-- =============================
         =========    Footer      =========
         ============================== -->
-        <section class="footer-area">
+        <footer class="footer-area">
             <div class="container">
                 <div class="row text-center">
                     <div class="col-sm-12">
@@ -276,7 +276,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </footer>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCm_Sq-jRWDCWTu7KhhcmOqU2KhrPi0oOw" type="text/javascript"></script>
@@ -298,19 +298,6 @@
         <!-- Scripts -->
         <script src="js/scripts.js"></script>
 
-          <script>
-            $('.map')
-              .gmap3({
-                address: "RangpurSource, Rangpur, Rangpur Division, Bangladesh",
-                zoom: 14,
-                scrollwheel: false,
-                mapTypeId : google.maps.MapTypeId.ROADMAP
-              })
-              .marker([
-                {position:[25.743892, 89.275227]},
-                {address:"Rangpur"},
-                {address:"Rangpur", icon: "http://maps.google.com/mapfiles/marker_grey.png"}
-              ]);
-          </script>
+
     </body>
 </html>

@@ -55,6 +55,11 @@ a:focus {
     padding: 60px 0;
 }
 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+}
 
 /*-- ===========================
 =====      Header        ======
@@ -76,6 +81,7 @@ a:focus {
     font-size: 16px;
 }
 
+.header-area .navbar-default .navbar-nav > li.active > a,
 .header-area .navbar-default .navbar-nav > li > a:hover {
     color: #fea30a;
 }

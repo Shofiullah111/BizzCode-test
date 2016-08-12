@@ -38,7 +38,7 @@
         ======      Header        =======
         ============================= -->
         <header>
-            <section class="header-area">
+            <div class="header-area">
                 <nav class="navbar navbar-default">
                     <div class="container">
                         <!-- Brand and toggle get grouped for better mobile display -->
@@ -58,13 +58,13 @@
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
+                                <li class="active"><a href="about.html">About</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </div>
                     </div>
                 </nav>
-            </section>
+            </div>
         </header>
 
 
@@ -213,7 +213,7 @@
         <!-- =============================
         =========    Footer      =========
         ============================== -->
-        <section class="footer-area">
+        <footer class="footer-area">
             <div class="container">
                 <div class="row text-center">
                     <div class="col-sm-12">
@@ -221,7 +221,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </footer>
 
 
 
@@ -246,18 +246,5 @@
         <!-- Scripts -->
         <script src="js/scripts.js"></script>
 
-      <script>
-        $('.map')
-          .gmap3({
-            address: "Paris, France",
-            zoom: 4,
-            mapTypeId : google.maps.MapTypeId.ROADMAP
-          })
-          .marker([
-            {position:[48.8620722, 2.352047]},
-            {address:"86000 Poitiers, France"},
-            {address:"66000 Perpignan, France", icon: "http://maps.google.com/mapfiles/marker_grey.png"}
-          ]);
-      </script>
     </body>
 </html>
