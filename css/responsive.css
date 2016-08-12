@@ -1,0 +1,194 @@
+/* Small Desktop */
+@media (max-width: 1199px){
+	
+	.direct-contact li {
+		margin-right: 20px;
+		padding: 5px 0;
+	}
+
+}
+
+
+/*  Tablat */
+@media (max-width: 991px){
+	.service-text {
+		margin: 15px 0;
+	}
+
+	.slider-text-main h2 {
+		font-size: 35px;
+	}
+
+	.slider-btn a {
+		font-size: 22px;
+	}	
+
+	.contact-btn-main {
+		padding-top: 0px;
+	}
+
+	.social-icon li i {
+		margin: 0 5px;
+	}
+
+	.call-social-icon {
+		padding-bottom: 40px;
+		padding-top: 22px;
+	}
+
+	.contact-left li{
+		font-size: 15px;
+	}
+
+}
+
+
+/* Larger Mobile */
+@media (max-width: 767px){
+	
+	.slider-text-main h2 {
+		font-size: 18px;
+		font-weight: 700;
+	}
+
+	.slider-btn a {
+		font-size: 14px;
+		padding: 8px 17px;
+	}
+
+	.slider-area .flex-control-nav {
+		bottom: 12px;
+	}
+
+	.service-bottom{
+		padding-bottom: 15px;
+	}
+
+	.history {
+	    padding-top: 40px;
+	}
+
+	.call-to-action-bottom {
+		text-align: center;
+	}
+
+	.call-to-action-bottom h2 {
+		padding-top: 30px;
+		line-height: 30px;
+	}
+
+	.call-service i{
+		display: none;
+	}
+
+	.direct-contact {
+	  padding-top: 20px;
+	}
+
+	.contact-btn-main {
+		margin-bottom: 40px;
+		overflow: hidden;
+	}
+
+
+	.head-title p {
+		font-size: 15px;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.name {
+		margin: 20px auto;
+		width: 95%;
+	}
+
+	.contact-form-text {
+		margin: 0px auto;
+		padding: 0px 20px;
+		width: 70%;
+	}
+
+	.require-text-bottom p {
+		padding-bottom: 40px;
+	}
+
+	.call-to-action-area .head-title h2 {
+		padding-top: 40px;
+	}
+
+}
+
+
+/* Small Mobile */
+@media (max-width: 480px){
+	
+	.service-bottom{
+		padding-bottom: 15px;
+	}
+
+	.slider-text-main h2 {
+		font-size: 14px;
+	}
+
+	.slider-btn a {
+		font-size: 12px;
+		font-weight: 600;
+		padding: 5px 8px;
+	}
+
+	.slider-area .flex-control-nav {
+		bottom: 3px;
+	}
+
+	.slider-btn {
+	  padding-top: 14px;
+	}
+
+	.head-title p {
+		font-size: 14px;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.direct-contact li {
+		padding-bottom: 10px;
+		margin: 0;
+	}
+
+	.location p {
+		line-height: 29px;
+	}
+	
+	.direct-contact-btns,
+	.direct-contact-btn {
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.form-title h3 {
+		font-size: 16px;
+	}
+	.require-text-top h2 {
+		font-size: 22px;
+	}
+	.contact-form-text {
+		width: 100%;
+	}
+
+	.footer-area p {
+		font-size: 13px;
+	}
+
+	.call-to-action-area .head-title h2 {
+		font-size: 23px;
+	}
+
+	.call-to-action-area .head-title img {
+		width: 88%;
+	}
+
+	.call-social-icon li i {
+		margin: 0 7px;
+	}
+
+}
